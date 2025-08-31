@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" type="image/png" href="assets/img/cool.png"/>
+        <title>Prateek Gupta</title>
+    </head>
+    <body>
+        
+        <header class="l-header">
+  <nav class="nav bd-grid">
+    <div>
+      <a href="#" class="nav__logo">Prateek Gupta</a>
+    </div>
+
+    <!-- One single nav__menu -->
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
+        <!-- Dark Mode Button (works for both desktop + mobile) -->
+        <li class="nav__item">
+          <i class="bx bx-moon change-theme" id="theme-button"></i>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Hamburger Menu Icon -->
+    <div class="nav__toggle" id="nav-toggle">
+      <i class='bx bx-menu'></i>
+    </div>
+  </nav>
+</header>
+
+        <main class="l-main">
+           <section class="home bd-grid" id="home">
+  <div class="home__data">
+    <h1 class="home__title">
+      <span class="typing-text"></span>
+    </h1>
+    <a href="assets/Prateek_Gupta_Resume.pdf" class="button" target="_blank">Resume</a>
+
+  </div>
+</section>
+
+
+           
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <div class="profile-card">
+  <div class="avatar-circle">
+    <!-- Techy Avatar SVG -->
+    <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="30" stroke="white" stroke-width="2" fill="none" opacity="0.3"/>
+      <circle cx="32" cy="24" r="8" stroke="white" stroke-width="2" fill="none"/>
+      <path d="M16 50c4-10 28-10 32 0" stroke="white" stroke-width="2" fill="none"/>
+    </svg>
+
+    <!-- Multiple sparkles orbiting -->
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+  </div>
+
+  <h2 class="profile-card__name">Prateek Gupta</h2>
+  <p class="profile-card__role">Frontend Developer</p>
+</div>
+
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Prateek Gupta</h2>
+                        <p class="about__text">I’m Prateek Gupta, a passionate developer who loves creating impactful and user-friendly digital experiences.  
+                            I enjoy solving problems, exploring new ideas, and continuously learning to improve my skills.  
+                            My focus is on building projects that blend creativity, functionality, and simplicity.</p>           
+                    </div>                                   
+                </div>
+            </section>
+           
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills__container bd-grid">          
+    <div>
+      <h2 class="skills__subtitle">Professional Skills</h2>
+
+      <div class="skills__data">
+        <div class="skills__names">
+          <i class='bx bxl-html5 skills__icon'></i>
+          <span class="skills__name">HTML5</span>
+        </div>
+      </div>
+
+      <div class="skills__data">
+        <div class="skills__names">
+          <i class='bx bxl-css3 skills__icon'></i>
+          <span class="skills__name">CSS3</span>
+        </div>
+      </div>
+
+      <div class="skills__data">
+        <div class="skills__names">
+          <i class='bx bxl-javascript skills__icon'></i>
+          <span class="skills__name">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="skills__data">
+        <div class="skills__names">
+          <i class='bx bxs-paint skills__icon'></i>
+          <span class="skills__name">UI/UX Design</span>
+        </div>
+      </div>
+
+     
+      <div class="skills__data">
+        <div class="skills__names">
+          <i class='bx bx-git-branch skills__icon'></i>
+          <span class="skills__name">Git & GitHub</span>
+        </div>
+      </div>
+
+      <div class="skills__data">
+        <div class="skills__names">
+          <i class='bx bx-mobile-alt skills__icon'></i>
+          <span class="skills__name">Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="skills__data">
+        <div class="skills__names">
+          <i class='bx bx-brain skills__icon'></i>
+          <span class="skills__name">Problem Solving</span>
+        </div>
+      </div>
+    </div>
+    
+    <div>              
+      <img src="assets/img/web.gif" alt="" class="skills__img">
+    </div>
+  </div>
+</section>
+
+           
+            
+                    
+                    
+
+           
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                     <!-- Project 1 -->
+    <div class="project-card">
+      <span class="status-badge">Completed</span>
+      <img src="assets/img/zomato.jpg" alt="Zomato Clone" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title">Zomato Clone</h3>
+        <p class="project-description">
+          A front-end clone of Zomato’s landing page with responsive design and interactive elements.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">Live Demo</a>
+          <a href="#" class="project-link secondary">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+  <span class="status-badge">
+    <i class='bx bx-check-circle'></i> Completed
+  </span>
+  <img src="assets/img/netflix.png" alt="Netflix Clone" class="project-image">
+  <div class="project-content">
+    <h3 class="project-title">Netflix Home Page</h3>
+    <p class="project-description">A responsive Netflix homepage clone with clean UI and media integration.</p>
+    <div class="tech-stack">
+      <span class="tech-tag">HTML</span>
+      <span class="tech-tag">CSS</span>
+    </div>
+    <div class="project-links">
+      <a href="#" class="project-link">Live Demo</a>
+      <a href="https://github.com/guptaprateek112/Netflix-Home-Page" class="project-link secondary">GitHub</a>
+    </div>
+  </div>
+</div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <span class="status-badge">Completed</span>
+      <img src="assets/img/amazon.png" alt="Amazon Landing Page Clone" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title">Amazon Landing Page</h3>
+        <p class="project-description">
+          A clone of Amazon’s landing page, focusing on product grids, navigation, and responsive design.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">Live Demo</a>
+          <a href="https://github.com/guptaprateek112/Amazon-Landing-Page-Clone" class="project-link secondary">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+      <span class="status-badge">Completed</span>
+      <img src="assets/img/linkedin.png" alt="Text to Speech Converter" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title">Text-To-Speech Converter</h3>
+        <p class="project-description">
+          A JavaScript project that converts user input text into speech using the Web Speech API.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">Live Demo</a>
+          <a href="https://github.com/guptaprateek112/Text-To-Speech-Converter" class="project-link secondary">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card">
+      <span class="status-badge ">Completed</span>
+      <img src="assets/img/grocery.png" alt="Grocery Shopping Webpage" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title">Grocery Shopping Website</h3>
+        <p class="project-description">
+          A responsive e-commerce style grocery shopping webpage with product listings and categories.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">Live Demo</a>
+          <a href="https://github.com/guptaprateek112/Grocery-Shopping-Webpage" class="project-link secondary">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 6 -->
+    <div class="project-card">
+      <span class="status-badge">Completed</span>
+      <img src="assets/img/music.png" alt="Music Player" class="project-image">
+      <div class="project-content">
+        <h3 class="project-title">Music Player</h3>
+        <p class="project-description">
+          A JavaScript music player web app with play, pause, and track navigation functionalities.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">Live Demo</a>
+          <a href="https://github.com/guptaprateek112/Music-Player" class="project-link secondary">GitHub</a>
+        </div>
+                </div>
+            </section>
+
+           
+        </main>
+        <!-- ADD THIS CONTACT SECTION TO YOUR index.html BEFORE THE FOOTER -->
+
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    
+    <div class="contact__container bd-grid">
+        <div class="contact__info">
+            <h3 class="contact__subtitle">Get In Touch</h3>
+            <p class="contact__text">
+                Have a project in mind? Let's discuss how we can work together to bring your ideas to life. 
+                I'm always excited to take on new challenges and collaborate on interesting projects.
+            </p>
+            
+            <div class="contact__details">
+                <div class="contact__detail">
+                    <i class='bx bx-location-plus contact__icon'></i>
+                    <div>
+                        <h4 class="contact__title">Location</h4>
+                        <span class="contact__data">Shahjahanpur, Uttar Pradesh</span>
+                    </div>
+                </div>
+                
+                <div class="contact__detail">
+                    <i class='bx bx-envelope contact__icon'></i>
+                    <div>
+                        <h4 class="contact__title">Email</h4>
+                        <span class="contact__data">gprateek532@.com</span>
+                    </div>
+                </div>
+                
+                <div class="contact__detail">
+                    <i class='bx bx-phone contact__icon'></i>
+                    <div>
+                        <h4 class="contact__title">Phone</h4>
+                        <span class="contact__data">+91 93365 32591</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact__social">
+                <h4 class="contact__social-title">Follow Me</h4>
+                <div class="contact__social-links">
+                    <a href="https://www.linkedin.com/in/prateek-gupta-67276721b/" class="contact__social-link" target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/guptaprateek112" class="contact__social-link" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.instagram.com/__prateek__gupta/" class="contact__social-link" target="_blank">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <form class="contact__form" id="contact-form">
+            <div class="contact__form-title">
+                <h3>Send me a message</h3>
+                <p>I'll get back to you as soon as possible!</p>
+            </div>
+            
+            <div class="contact__inputs">
+                <div class="contact__input">
+                    <input type="text" id="contact-name" name="name" placeholder=" " required>
+                    <label for="contact-name">Full Name</label>
+                    <i class='bx bx-user contact__input-icon'></i>
+                </div>
+                
+                <div class="contact__input">
+                    <input type="email" id="contact-email" name="email" placeholder=" " required>
+                    <label for="contact-email">Email Address</label>
+                    <i class='bx bx-envelope contact__input-icon'></i>
+                </div>
+                
+                <div class="contact__input">
+                    <input type="text" id="contact-subject" name="subject" placeholder=" " required>
+                    <label for="contact-subject">Subject</label>
+                    <i class='bx bx-bookmark contact__input-icon'></i>
+                </div>
+                
+                <div class="contact__input contact__input--textarea">
+                    <textarea id="contact-message" name="message" placeholder=" " required rows="6"></textarea>
+                    <label for="contact-message">Your Message</label>
+                    <i class='bx bx-message-detail contact__input-icon'></i>
+                </div>
+            </div>
+            
+            <button type="submit" class="contact__button button" id="contact-submit">
+                <span class="button__text">Send Message</span>
+                <i class='bx bx-send button__icon'></i>
+            </button>
+            
+            <div class="contact__status" id="contact-status"></div>
+        </form>
+    </div>
+</section>
+
+        
+        <footer class="footer">
+            <p class="footer__title">Prateek Gupta</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+           
+        </footer>
+
+
+        
+        <script src="scroll.js"></script>
+
+        
+        <script src="main.js"></script>
+    </body>
+</html>
